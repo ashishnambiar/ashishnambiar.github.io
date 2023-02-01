@@ -1059,7 +1059,7 @@ cb(a){var t,s
 for(t=$.G.length,s=0;s<t;++s)if(a===$.G[s])return!0
 return!1},
 ct(){var t=document.querySelector("#output")
-if(t!=null)J.bn(t,"Your Dart app is running.")}},J={
+if(t!=null)J.bn(t,"This is the portfolio of Ashish Nambiar, A flutter developer. Still in progress...")}},J={
 aL(a,b,c,d){return{i:a,p:b,e:c,x:d}},
 aH(a){var t,s,r,q,p,o=a[v.dispatchPropertyName]
 if(o==null)if($.aI==null){A.cp()
