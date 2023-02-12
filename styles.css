@@ -8,7 +8,41 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
-#output {
-  padding: 20px;
-  text-align: center;
+canvas {
+	position:fixed;
+	left:0;
+	top:0;
+	overflow: hidden;
+}
+
+#bg {
+	color:black;
+}
+
+#page {
+	font-size: 1.4em;
+	width:100%;
+	position: absolute;
+	width:100%;
+	display:flex;
+	color: black;
+	justify-content: center;
+}
+
+.hpadding {
+	min-width:30px;
+	
+}
+
+#content {
+	max-width: 600px;
+}
+
+#projects {
+list-style: none;
+	font-size: 1em;
+}
+
+.links {
+	line-height: 1.5em;
 }
